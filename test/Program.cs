@@ -12,8 +12,8 @@ namespace file
 
     static void Main(string[] args){
 
-      string DxfFile = "Skeppsbrokajen.dxf";
-      string csvFile = "Michanotest.csv";
+      string DxfFile = args[1]
+      string csvFile = "output.csv";
 
       List<string> lines = new List<string>();
       List<string> lines2 = new List<string>();
